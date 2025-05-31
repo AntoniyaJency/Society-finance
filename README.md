@@ -1,5 +1,12 @@
+<div align="center">
+  
 # Society-finance
+
+
+
 # 🏢 Society Financial Management System (SFM)
+
+</div>
 
 <div align="center">
   
@@ -7,7 +14,7 @@
 
 </div>
 
-## 📈 Overview
+# 📈 Overview
 
 The **Society Financial Management System (SFM)** is a user-friendly web application designed to manage the income and expenses of residential societies. It allows society admins to record financial data, view summaries, and manage member information effectively.
 
@@ -15,7 +22,7 @@ The **Society Financial Management System (SFM)** is a user-friendly web applica
 
 ---
 
-## 🚀 Features
+# 🚀 Features
 
 - 💸 **Track Income**: Add and view records of income from various sources.
 - 🧾 **Manage Expenses**: Keep a log of all society expenditures.
@@ -26,7 +33,7 @@ The **Society Financial Management System (SFM)** is a user-friendly web applica
 
 ---
 
-## 🧰 Technologies Used
+# 🧰 Technologies Used
 
 - **Frontend**: HTML, CSS (`style.css`)
 - **Backend**: Python with Flask
@@ -35,7 +42,7 @@ The **Society Financial Management System (SFM)** is a user-friendly web applica
 
 ---
 
-## 🛠️ Installation Steps
+# 🛠️ Installation Steps
 
 ### 1. Clone the Repository
 
@@ -43,39 +50,38 @@ The **Society Financial Management System (SFM)** is a user-friendly web applica
 git clone https://github.com/AntoniyaJency/Society-finance.git
 cd Society-finance
 ```
-Set Up the Database
+### 2. Set Up the Database
 
 Ensure MySQL is running.
 
 Execute setup.sql:
 
-sql
-Copy
-Edit
+Open MySQL and run the setup.sql file:
+
+```bash
 source path/to/setup.sql;
-Install Python Dependencies
+```
+This will create three tables: income, expenses, and members.
 
-bash
-Copy
-Edit
+### 3. Install  Required  Python  Packages
+```bash
 pip install flask mysql-connector-python
-Run the App
+```
 
-bash
-Copy
-Edit
+### 4. Run  the  Application
+
+```bash
 python app.py
-Open in Browser
+```
 
-cpp
-Copy
-Edit
+## 5. Open  in  Browser
+
+```bash
 http://127.0.0.1:5000/
-📁 Project Structure
-pgsql
-Copy
-Edit
-society-financial-management/
+```
+# 📁 Project Structure
+<pre>
+Society-finance/
 ├── app.py
 ├── templates/
 │   ├── index.html
@@ -84,26 +90,34 @@ society-financial-management/
 │   ├── expenses.html
 │   └── members.html
 ├── static/
-│   ├── style.css
+│   ├── style.css 
+|   ├── SFM.png
 │   └── img.jpg
 ├── database/
 │   └── setup.sql
-├── SFM.png
 └── README.md
-🧑‍💼 Developed By
-Jency – CSE 2nd Year
-Contact: [Add your email or portfolio link]
+</pre>
 
-📜 License
-This project is licensed under the MIT License - see the LICENSE file for details.
+# Developed By
+Antoniya Jency <br>
+Contact: antoniyajency@gmail.com
 
-yaml
-Copy
-Edit
+# 📜 License
 
----
+Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International
 
-Let me know if you'd like to include GitHub links, your contact details, or customize this for deployment (e.g., on Heroku, Railway, or Replit).
+This project by Jency is licensed under CC BY-NC-ND 4.0
+
+You may:
+- Share — copy and redistribute the material in any medium or format
+
+You may not:
+- Use for commercial purposes
+- Modify or remix the content
+- Copy code or reuse parts in your own projects
+
+Full license: https://creativecommons.org/licenses/by-nc-nd/4.0/
+© 2025 Jency. All rights reserved.
 
 
 
