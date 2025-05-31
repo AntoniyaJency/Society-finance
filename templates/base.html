@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Society Financial Management</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <link rel="icon" href="{{ url_for('static', filename='SFM.png') }}" type="image/png">
+
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/expenses">Expenses</a></li>
+            <li><a href="/income">Income</a></li>
+            <li><a href="/dashboard">Dashboard</a></li>
+            <li><a href="/members">Members</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main content area where specific pages' content will appear -->
+    <div class="content">
+        {% block content %}
+        <!-- Content from other pages will be inserted here -->
+        {% endblock %}
+    </div>
+</body>
+</html>
