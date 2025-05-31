@@ -1,10 +1,6 @@
 <div align="center">
   
-# Society-finance
-
-
-
-# 🏢 Society Financial Management System (SFM)
+# 🏢 Society  Financial  Management  System  (SFM)
 
 </div>
 
